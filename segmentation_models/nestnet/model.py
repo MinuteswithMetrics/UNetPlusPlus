@@ -40,7 +40,7 @@ DEFAULT_SKIP_CONNECTIONS = {
 
 
 def Nestnet(backbone_name='vgg16',
-         input_shape=(None, None, 3),
+         input_shape=(None, None, 1),
          input_tensor=None,
          encoder_weights='imagenet',
          freeze_encoder=False,
