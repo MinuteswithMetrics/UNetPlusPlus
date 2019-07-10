@@ -41,8 +41,8 @@ def build_resnext(
     
     # Determine proper input shape
     input_shape = _obtain_input_shape(input_shape,
-                                      default_size=224,
-                                      min_size=197,
+                                      default_size=1024,
+                                      min_size=128,
                                       data_format='channels_last',
                                       require_flatten=include_top)
 
