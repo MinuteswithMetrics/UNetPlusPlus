@@ -2,6 +2,8 @@
 from .classification_models.classification_models import ResNet18, ResNet34, ResNet50, ResNet101, ResNet152
 from .classification_models.classification_models import ResNeXt50, ResNeXt101
 
+import efficientnet as eff
+
 from .inception_resnet_v2 import InceptionResNetV2
 from .inception_v3 import InceptionV3
 
